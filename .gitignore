@@ -1,0 +1,4 @@
+coverage/
+.history
+.vercel
+node_modules

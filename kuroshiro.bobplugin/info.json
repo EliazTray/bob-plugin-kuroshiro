@@ -1,0 +1,78 @@
+{
+    "identifier": "kuroshiro",
+    "version": "0.1.0",
+    "category": "translate",
+    "name": "日文-旁注标记",
+    "summary": "A Bob Plugin for Ruby Character",
+    "icon": "",
+    "author": "Eliaztray",
+    "homepage": "https://github.com/EliazTray/bob-plugin-kuroshiro",
+    "appcast": "",
+    "minBobVersion": "0.6.1",
+    "options": [
+        {
+            "identifier": "to",
+            "type": "menu",
+            "title": "目标音节",
+            "defaultValue": "hiragana",
+            "menuValues": [
+                {
+                    "title": "平假名",
+                    "value": "hiragana"
+                },
+                {
+                    "title": "片假名",
+                    "value": "katakana"
+                },
+                {
+                    "title": "罗马字",
+                    "value": "romaji"
+                }
+            ]
+        },
+        {
+            "identifier": "mode",
+            "type": "menu",
+            "title": "转换模式",
+            "defaultValue": "okurigana",
+            "menuValues": [
+                {
+                    "title": "标准模式",
+                    "value": "normal"
+                },
+                {
+                    "title": "空格分组",
+                    "value": "spaced"
+                },
+                {
+                    "title": "送假名",
+                    "value": "okurigana"
+                },
+                {
+                    "title": "注音假名",
+                    "value": "furigana"
+                }
+            ]
+        },
+        {
+            "identifier": "romajiSystem",
+            "type": "menu",
+            "title": "罗马字体系",
+            "defaultValue": "hepburn",
+            "menuValues": [
+                {
+                    "title": "日本式",
+                    "value": "nippon"
+                },
+                {
+                    "title": "护照式",
+                    "value": "passport"
+                },
+                {
+                    "title": "平文式",
+                    "value": "hepburn"
+                }
+            ]
+        }
+    ]
+}

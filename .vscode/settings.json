@@ -1,0 +1,15 @@
+{
+    "editor.formatOnSave": true,
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "plaintext",
+        "mdx"
+    ],
+    "spellright.parserByClass": {
+        "mdx": {
+            "parser": "markdown"
+        }
+    }
+}
