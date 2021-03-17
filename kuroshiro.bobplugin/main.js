@@ -46,9 +46,9 @@ function translate(query, completion) {
         url: 'https://ruby-character.vercel.app/api/ruby',
         body: {
             text: query.text,
-            to: $options.to,
-            mode: $options.mode,
-            romajiSystem: $options.romajiSystem,
+            to: $option.to,
+            mode: $option.mode,
+            romajiSystem: $option.romajiSystem,
         },
         timeout: 3000,
         handler: function (resp) {
