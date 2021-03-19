@@ -25,3 +25,5 @@ jobs:
               if: startsWith(github.ref, 'refs/tags/')
               with:
                   files: kuroshiro.bobplugin.zip
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
