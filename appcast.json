@@ -2,6 +2,13 @@
     "identifier": "kuroshiro",
     "versions": [
         {
+            "version": "0.2.0",
+            "desc": "release: 0.2.0",
+            "sha256": "db265baae99253a399b27bec2ea84fb79bf4d4719e97cc230b2df3449bcbb60b",
+            "url": "https://github.com/EliazTray/bob-plugin-kuroshiro/releases/download/v0.2.0/kuroshiro.bobplugin.zip",
+            "minBobVersion": "0.6.1"
+        },
+        {
             "version": "0.1.3",
             "desc": "release: 0.1.3",
             "sha256": "41ccbd15fdeb0b846f9959d349cc15dd4f79db9538e3b22140f783bd41c5e371",
