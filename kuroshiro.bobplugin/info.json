@@ -1,6 +1,6 @@
 {
     "identifier": "kuroshiro",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "category": "translate",
     "name": "日文-旁注标记",
     "summary": "A Bob Plugin for Ruby Character",
