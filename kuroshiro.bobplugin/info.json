@@ -7,7 +7,7 @@
     "icon": "",
     "author": "Eliaztray",
     "homepage": "https://github.com/EliazTray/bob-plugin-kuroshiro",
-    "appcast": "",
+    "appcast": "https://raw.githubusercontent.com/EliazTray/bob-plugin-kuroshiro/main/appcast.json",
     "minBobVersion": "0.6.1",
     "options": [
         {

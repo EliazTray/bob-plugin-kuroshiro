@@ -1,12 +1,4 @@
 {
     "identifier": "kuroshiro",
-    "versions": [
-        {
-            "version": "0.1.0",
-            "desc": "初始版本",
-            "sha256": "",
-            "url": "",
-            "minBobVersion": "0.6.1"
-        }
-    ]
+    "versions": []
 }

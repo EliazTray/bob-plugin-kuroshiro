@@ -1,0 +1,27 @@
+name: Main
+
+on:
+    push:
+        tags:
+            - 'v*.*.*'
+jobs:
+    push-assets:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Get yarn cache directory path
+              id: yarn-cache-dir-path
+              run: echo "::set-output name=dir::$(yarn cache dir)"
+            - uses: actions/cache@v2
+              with:
+                  path: '**/node_modules'
+                  key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+            - name: Install Dependencies
+              run: yarn --frozen-lockfile
+            - name: Pack
+              run: yarn build
+            - name: Release
+              uses: softprops/action-gh-release@v1
+              if: startsWith(github.ref, 'refs/tags/')
+              with:
+                  files: kuroshiro.bobplugin.zip
