@@ -25,7 +25,8 @@ function supportLanguages() {
 /**
  * @typedef {Object} failure
  * @property {Object} failure.error
- * @property {string} failure.error.ab
+ * @property {string} failure.error.type
+ * @property {string} failure.error.message
  *
  */
 
@@ -71,9 +72,9 @@ function translate(query, completion) {
             } else {
                 completion({
                     error: {
-                        msg: '网络异常',
-                        code: resp.statusCode,
-                    },
+                        type: 'network',
+                        message: resp.error.localizedDescription
+                    }
                 })
             }
         },

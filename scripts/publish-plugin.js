@@ -84,7 +84,7 @@ async function run() {
                 version: targetVersion,
                 desc: `release: ${targetVersion}`,
                 sha256,
-                url: '',
+                url: `https://github.com/EliazTray/bob-plugin-kuroshiro/releases/download/v${targetVersion}/kuroshiro.bobplugin.zip`,
                 minBobVersion: '0.6.1',
             },
         ].concat(appcast.versions)
