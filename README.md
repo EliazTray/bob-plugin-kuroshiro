@@ -19,7 +19,7 @@ A Bob plugin for [Ruby Charater](https://en.wikipedia.org/wiki/Ruby_character).
 
 ## TODO
 
-- [ ] 无需网络请求，转换旁注标记使用本地字典进行处理(需要改造 kuroshiro 依赖文件的引用路径)
+~~- [ ] 无需网络请求，转换旁注标记使用本地字典进行处理(要处理字典包，bob 插件基于 jscore，无法拓展此功能)~~
 - [ ] 支持 furigana(注音假名), 跟进[Bob Issue](https://github.com/ripperhe/Bob/issues/162)
 
 ## Inspired
